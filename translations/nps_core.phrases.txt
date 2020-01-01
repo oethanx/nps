@@ -38,7 +38,7 @@
   "Max Points"
   {
     "#format"   "{1:i},{2:i}"
-    "en"        "You have received the maximum number of points [{red}{1}{default}/{olive}{2}{default}]"
+    "en"        "Maximum points reached! [{olive}{1}{default}/{olive}{2}{default}]"
   }
   "Item Doesn't Exist"
   {
@@ -77,12 +77,12 @@
   "Show Points"
   {
     "#format"   "{1:i}"
-    "en"        "You currently have {olive}{1}{default} points."
+    "en"        "{blue}You:{default} {olive}{1}{default} points."
   }
   "Show Points Other"
   {
     "#format"   "{1:N},{2:i}"
-    "en"        "{lightgreen}{1}{default} currently has {olive}{2}{default} points."
+    "en"        "{blue}{1}:{default} {olive}{2}{default} points."
   }
   
   "Killed Special Infected"
@@ -98,7 +98,7 @@
   "Hurt Player"
   {
     "#format"   "{1:i},{2:N}"
-    "en"        "{olive}+{1}{default} points awarded for hurting {lightgreen}{2}{default}."
+    "en"        "{olive}+{1}{default} points awarded for multiple damage {lightgreen}{2}{default}."
   }
   "Incapacitated Player"
   {
@@ -178,47 +178,47 @@
   "Healed Player Partial"
   {
     "#format"   "{1:i},{2:N}"
-    "en"        "{olive}+{1}{default} points awarded for partially healing {lightgreen}{2}{default}."
+    "en"        "{olive}+{1}{default} points for partially healing {lightgreen}{2}{default}."
   }
   "Protected Player"
   {
     "#format"   "{1:i},{2:N}"
-    "en"        "{olive}+{1}{default} points awarded for protecting {lightgreen}{2}{default}."
+    "en"        "{olive}+{1}{default} points for protecting {lightgreen}{2}{default}."
   }
   "Revived Player"
   {
     "#format"   "{1:i},{2:N}"
-    "en"        "{olive}+{1}{default} points awarded for reviving {lightgreen}{2}{default}."
+    "en"        "{olive}+{1}{default} points for reviving {lightgreen}{2}{default}."
   }
   "Revived Player From Ledge"
   {
     "#format"   "{1:i},{2:N}"
-    "en"        "{olive}+{1}{default} points awarded for saving {lightgreen}{2}{default} from a ledge."
+    "en"        "{olive}+{1}{default} points for saving {lightgreen}{2}{default} from a ledge."
   }
   "Defibrillator Used"
   {
     "#format"   "{1:i},{2:N}"
-    "en"        "{olive}+{1}{default} points awarded for reviving {lightgreen}{2}{default} from the dead."
+    "en"        "{olive}+{1}{default} points for reviving {lightgreen}{2}{default} from the dead."
   }
   "Burned Tank"
   {
     "#format"   "{1:i}"
-    "en"        "{olive}+{1}{default} points awarded for burning the {lightgreen}Tank{default}"
+    "en"        "{olive}+{1}{default} points for burning the {lightgreen}Tank{default}"
   }
   "Burned Witch"
   {
     "#format"   "{1:i}"
-    "en"        "{olive}+{1}{default} points awarded for burning the {lightgreen}Witch{default}"
+    "en"        "{olive}+{1}{default} points for burning the {lightgreen}Witch{default}"
   }
   "Round Won"
   {
     "#format"   "{1:i}"
-    "en"        "{olive}+{1}{default} points awarded for winning."
+    "en"        "{olive}+{1}{default} points for winning the round."
   }
   "Round Lost"
   {
     "#format"   "{1:i}"
-    "en"        "{olive}+{1}{default} points awarded for loosing."
+    "en"        "{olive}+{1}{default} points for losing the round."
   }
   "Spawn Limit Reached"
   {
@@ -245,16 +245,16 @@
   "Tank Allowed in Minutes"
   {
     "#format"   "{1:i}"
-    "en"        "You must wait {olive}{1}{default} minutes before you can become the tank."
+    "en"        "You must wait {olive}{1}{default} minutes before purchasing the tank."
   }
   "Tank Allowed in Seconds"
   {
     "#format"   "{1:i}"
-    "en"        "You must wait {olive}{1}{default} seconds before you can become the tank."
+    "en"        "You must wait {olive}{1}{default} seconds before purchasing the tank."
   }
   "Tank Not Allowed in Final"
   {
-    "en"        "Tank is not allowed in final."
+    "en"        "Tank is not allowed in finale."
   }
   "Announce Special Infected Purchase"
   {
